@@ -1,7 +1,7 @@
 import './App.css';
 
 import PrincipalCount from './Components/Principal/PrincipalCount';
-import SecondaryCount from './Components/SecondaryCount';
+import SecondaryCount from './Components/Secondary/SecondaryCount';
 
 function App() {
   return (
