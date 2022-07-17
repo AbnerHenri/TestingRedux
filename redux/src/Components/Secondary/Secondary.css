@@ -1,0 +1,8 @@
+
+.Secondary {
+    display : inline-block;
+    border : 1px solid gray;
+    margin : 100px 15px 0px 15px;
+    padding : 8px 40px 8px 40px;
+    font-size : 25px;
+}

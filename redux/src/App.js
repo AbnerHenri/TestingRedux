@@ -7,7 +7,14 @@ function App() {
   return (
     <div className="App">
       <Principal />
-      <Secondary />
+
+      <div>
+        <Secondary />
+        <Secondary />
+        <Secondary />
+        <Secondary />
+        <Secondary />
+      </div>
     </div>
   );
 }

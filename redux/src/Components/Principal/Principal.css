@@ -1,0 +1,27 @@
+
+.Principal {
+    display : flex;
+
+    justify-content : space-around;
+    align-items : center;
+
+    width : 50%;
+    height : 200px;
+    margin : 100px auto 0px auto;
+
+    box-shadow : 0px 2px 6px 0px black;
+}
+
+
+.Image {
+    width : 100px;
+    height : 120px;
+}
+
+.Up {
+    transform : rotate(-90deg)
+}
+
+.Down {
+    transform : rotate(90deg)
+}
