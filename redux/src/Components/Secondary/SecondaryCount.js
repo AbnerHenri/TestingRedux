@@ -1,11 +1,14 @@
-import React from 'react';
-
 import './Secondary.css'
 
-function Secondary() {
+import { useSelector } from 'react-redux' 
+
+function Secondary({ value }) {
+
+  const Count = useSelector((state)=> { return state.count.value })
+
   return(
     <div className='Secondary'>
-        <h2>0</h2>
+        <h2>{Count + value}</h2>
     </div>
   );
 }

@@ -9,11 +9,11 @@ function App() {
       <Principal />
 
       <div>
-        <Secondary />
-        <Secondary />
-        <Secondary />
-        <Secondary />
-        <Secondary />
+        <Secondary value={1} />
+        <Secondary value={2} />
+        <Secondary value={3} />
+        <Secondary value={4} />
+        <Secondary value={5} />
       </div>
     </div>
   );
