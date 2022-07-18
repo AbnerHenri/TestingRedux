@@ -4,18 +4,16 @@ import './index.css';
 import App from './App';
 
 import { Provider } from 'react-redux';
-import { createStore } from 'redux'
-import { Count } from './Reducers/Reducers'
+
+import Store from './Redux/Store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const Store = createStore(Count)
-
 root.render(
-  <React.StrictMode>
-    <Provider store={Store}>
-      <App />
-    </Provider>
+  <React.StrictMode> 
+      <Provider store={Store}>
+        <App />
+      </Provider>  
   </React.StrictMode>
 );
 
